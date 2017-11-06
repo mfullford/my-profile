@@ -47,7 +47,9 @@ body {
   color: #fff;
   border: none;
   border-radius: 0;
-  background-color: rgba(0, 0, 0, .4);
+  /*background-color: rgba(0, 0, 0, .4);*/
+  background-color: #e05a47;
+  opacity: .8;
 }
 
 .btn-dark:hover, .btn-dark:focus, .btn-dark:active {
@@ -82,7 +84,7 @@ hr.small {
   z-index: 1000;
   right: 0;
   overflow-y: auto;
-  width: 200px;
+  width: 150px;
   height: 100%;
   -webkit-transition: all .4s ease 0s;
   -moz-transition: all .4s ease 0s;
@@ -90,16 +92,19 @@ hr.small {
   -o-transition: all .4s ease 0s;
   transition: all .4s ease 0s;
   transform: translateX(250px);
-  background: #222;
+  /*background: #222;*/
+  background: /*linear-gradient(to right, #ffc3a0 0%, */#e05a47/* 100%)*/!important;
+  opacity: .8;
 }
 
 .sidebar-nav {
   position: absolute;
   top: 0;
-  width: 250px;
+  width: 200px;
   margin: 0;
   padding: 0;
   list-style: none;
+
 }
 
 .sidebar-nav li {
@@ -110,7 +115,7 @@ hr.small {
 .sidebar-nav li a {
   display: block;
   text-decoration: none;
-  color: #999;
+  color: white;
 }
 
 .sidebar-nav li a:hover {
@@ -130,7 +135,7 @@ hr.small {
 }
 
 .sidebar-nav>.sidebar-brand a {
-  color: #999;
+  color: white;
 }
 
 .sidebar-nav>.sidebar-brand a:hover {
@@ -147,7 +152,8 @@ hr.small {
 
 #sidebar-wrapper.active {
   right: 250px;
-  width: 250px;
+  width: 200px;
+  height: 50%;
   -webkit-transition: all .4s ease 0s;
   -moz-transition: all .4s ease 0s;
   -ms-transition: all .4s ease 0s;
@@ -157,7 +163,7 @@ hr.small {
 
 .toggle {
   font-size: 1em;
-  margin: 5px 5px 0 0;
+  margin: 5px 5px 10px 0;
   padding: 15px 20px;
 }
 
@@ -189,10 +195,65 @@ hr.small {
     /*margin-top: -5%;*/
 }
 
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+ opacity:0;  /* make things invisible upon start */
+ -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+ -moz-animation:fadeIn ease-in 1;
+ animation:fadeIn ease-in 1;
+ 
+ -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+ -moz-animation-fill-mode:forwards;
+ animation-fill-mode:forwards;
+ 
+ -webkit-animation-duration:1s;
+ -moz-animation-duration:1s;
+ animation-duration:1s;
+}
+ 
+.fade-in.one {
+-webkit-animation-delay: 0.7s;
+-moz-animation-delay: 0.7s;
+animation-delay: 0.7s;
+}
+ 
+.fade-in.two {
+-webkit-animation-delay: 1.2s;
+-moz-animation-delay:1.2s;
+animation-delay: 1.2s;
+}
+ 
+.fade-in.three {
+-webkit-animation-delay: 1.6s;
+-moz-animation-delay: 1.6s;
+animation-delay: 1.6s;
+}
+ 
+/*---make a basic box ---*/
+.box{
+width: 200px;
+height: 200px;
+position: relative;
+margin: 10px;
+float: left;
+border: 1px solid #333;
+background: #999;
+}
+ 
+ 
+
+
 /* About */
 
 .about {
   padding: 50px 0;
+}
+
+h2 {
+  color: #e05a47;
 }
 
 .img-circle {
@@ -338,5 +399,8 @@ footer {
 }
 
 .bg-primary {
-  background-color: rgba(0, 0, 0, .9)!important;
+ background-image: linear-gradient(to bottom, #eb9588 0%, rgba(224,90,71,.95) 100%)!important;
+ background-opacity: .5;
 }
+
+
