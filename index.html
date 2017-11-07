@@ -33,7 +33,7 @@
           <i class="fa fa-times"></i>
         </a>
         <li class="sidebar-brand">
-          <a class="js-scroll-trigger" href="#top">Navigate</a>
+          <a class="js-scroll-trigger" href="#top">TLDR</a>
         </li>
         <li>
           <a class="js-scroll-trigger" href="#top">Intro</a>
@@ -42,13 +42,13 @@
           <a class="js-scroll-trigger" href="#services">Skills</a>
         </li>
         <li>
-          <a class="js-scroll-trigger" href="#about">About</a>
+          <a class="js-scroll-trigger" href="#about">Profile</a>
         </li>
         <li>
           <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
         </li>
                 <li>
-          <a class="js-scroll-trigger" href="#call-to-action">References</a>
+          <a class="js-scroll-trigger" href="#references">Testimonies</a>
         </li>
         <li>
           <a class="js-scroll-trigger" href="#contact" onclick=$( "#menu-close").click();>Contact</a>
@@ -91,28 +91,13 @@
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                    <!-- <i class="fa fa-compass fa-stack-1x text-primary"></i> -->
+                    <img class="fa-stack-1x text-primary " id="rectangle" src="image/js-icon.png">
                   </span>
                   <h4>
                     <strong>Javascript</strong>
                   </h4>
-<!--                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
-<!--                   <a href="#" class="btn btn-light">Learn More</a> -->
-                </div>
               </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                    <i class="fa devicon-sass-original fa-stack-1x text-primary"></i>
-                  </span>
-                  <h4>
-                    <strong>Sass</strong>
-                  </h4>
-<!--                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
-<!--                   <a href="#" class="btn btn-light">Learn More</a> -->
-                </div>
               </div>
               <div class="col-md-3 col-sm-6">
                 <div class="service-item">
@@ -123,8 +108,17 @@
                   <h4>
                     <strong>MongoDB</strong>
                   </h4>
-<!--                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
-<!--                   <a href="#" class="btn btn-light">Learn More</a> -->
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-4x">            
+                    <div><a href="https://www.flaticon.com/authors/daniel-bruce" title="Daniel Bruce"></a><a href="https://www.flaticon.com/" title="Flaticon"></a><a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank"></a></div>
+                    <img class="fa-stack-1x text-primary circle-icon" src="image/github-logo.png">
+                  </span>
+                  <h4>
+                    <strong>Git, Github</strong>
+                  </h4>
                 </div>
               </div>
             </div>
@@ -140,7 +134,7 @@
         <!-- About -->
     <section id="about" class="about">
       <div class="container text-center">
-        <h1>Profile</h1>
+        <!-- <h1>Profile</h1> -->
       <img class="img-responsive img-circle profile-img" src="./image/salt-river.jpg" alt="Marissa Fullford">
         <h2>Marissa Fullford</h2>
         <p class="lead">A front end developer with operations, HR, and event planning experience,</br> I'm a passionate, personable individual that loves to help projects come to life. </br>  Inclusivity and empathy are key in everything I do. In my spare time, I can </br> be found hiking or eating hot cheetos (oftentimes both).  Check out some</br> of my skills, past projects, and references!</p>
@@ -169,7 +163,7 @@
                     <div class="overlay">
                       <div class="text">Women in Congress</div>
                     </div>
-                    <img class="img-portfolio img-fluid" src="image/women-in-congress.png">
+                    <img class="img-portfolio img-fluid" src="image/congress.png">
                   </a>
                 </div>
               </div>
@@ -179,7 +173,7 @@
                      <div class="overlay">
                       <div class="text">Hike Squad</div>
                     </div>
-                    <img class="img-portfolio img-fluid" src="image/hiking-sign-in.png">
+                    <img class="img-portfolio img-fluid" src="image/hike-squad-log.png">
                   </a>
                 </div>
               </div>
@@ -189,23 +183,23 @@
                      <div class="overlay">
                       <div class="text">Pet A Puppy</div>
                     </div>
-                    <img class="img-portfolio img-fluid" src="image/pet-a-puppy.png">
+                    <img class="img-portfolio img-fluid" src="image/pet-a-pupper.png">
                   </a>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="portfolio-item">
                   <a href="#">
-                    <img class="img-portfolio img-fluid" src="image/tic-tac-toe.png">
+                    <img class="img-portfolio img-fluid" src="image/tic-tac-yas.png">
                     <div class="overlay">
-                      <div class="text">Tic Tact Toe</div>
+                      <div class="text">Tic Tac Toe</div>
                     </div>
                   </a>
                 </div>
               </div>
             </div>
             <!-- /.row (nested) -->
-            <a href="#" class="btn btn-dark">View More Items</a>
+            <a href="https://github.com/mfullford?tab=stars" class="btn btn-dark">View More Items</a>
           </div>
           <!-- /.col-lg-10 -->
         </div>
@@ -217,26 +211,26 @@
     <!-- References -->
     <aside class="call-to-action bg-primary text-white">
       <div class="container text-center">
-                <h3>References</h3>
+                <h3 id="references">What People Have to Say:</h3>
                   <div class="bonnie">
-                            <p class="lead">"Dedicated and fun to work with."</p>
-                            <hr class="colored">
+                            <!-- <p class="lead">"Dedicated and fun to work with."</p> -->
                             <div class="testimonial-img">
                                 <img class="rounded-circle img-fluid smallest" src="image/bonnie.png" alt="Bonnie">
                             </div>
-                            <p>Super fun to work with and always dependable!</p>
+                            <hr class="colored">
+                            <p>"Marissa is super fun to work with and always dependable! Working at a start-up can be hectic and take up more time than a regular 9 to 5, but Marissa never complained and took on whatever role was needed to help out the team. She displayed a great deal of creativity and her attention to company culture was crucial for us at the time."</p>
                             <div class="testimonial-author">
                                 <span class="name">Bonnie</span>
                                 <p class="small">Former COO, Mapbox</p>
                             </div>
                     </div>
                          <div class="nikki">
-                            <p class="lead">"Quick learner!!"</p>
+                            <!-- <p class="lead">"Quick learner!!"</p> -->
                             <div class="testimonial-img">
                                 <img class="rounded-circle img-fluid smallest" src="./image/nikki.png" alt="Tim">
                             </div>
                             <hr class="colored">
-                            <p>She was able to really help with the attrition rates at the FC.</p>
+                            <p>"Marissa is a talented young woman with high energy and drive. Any project she is given, she masters with the utmost attention to detail. "Customer center" should be her middle name. Many people say that they are hard-working; Marissa is dedicated. Great asset to any project or team."</p>
                             <div class="testimonial-author">
                                 <span class="name">Chanique Maxwell</span>
                                 <p class="small">Former HR Business Partner, Amazon</p>
@@ -244,12 +238,12 @@
                             </div>
                       
                            <div class="tim">
-                            <p class="lead">"Her creativity shines!"</p>
+                            <!-- <p class="lead">"Her creativity shines!"</p> -->
                             <div class="testimonial-img">
                                 <img class="rounded-circle img-fluid smaller" src="./image/tim.png" alt="Tim">
                             </div>
                             <hr class="colored">
-                            <p>She's brought enthusiasm and passion into every project.</p>
+                            <p>"She brought enthusiasm and passion into every project she worked on. During her time at ASU, she was a tremendous student leader that had the ability to bring teams together with a shared goal and implement whatever vision they had. She aways has a smile on her face and is a master at inclusivity."</p>
                             <div class="testimonial-author">
                                 <span class="name">Tim Desch</span>
                                 <p class="small">Dean of Admissions, WP Carey</p>
@@ -258,10 +252,12 @@
           </div>             
     </aside>
 
+
+
     <!-- Footer -->
     <footer>
-      <div class="container">
-        <div class="row">
+      <div class=" container">
+        <div class="row" id="contact">
           <div class="col-lg-10 mx-auto text-center">
             <h4>
               <strong>Marissa Fullford</strong>
@@ -278,12 +274,12 @@
             <br>
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a href="www.linkedin.com/in/marissa-fullford-a2873482">
+                <a href="http://www.linkedin.com/in/marissa-fullford-a2873482">
                   <i class="fa fa-linkedin fa-fw fa-3x"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://twitter.com/theEmptyChevy">
+                <a href="http://twitter.com/theEmptyChevy">
                   <i class="fa fa-twitter fa-fw fa-3x"></i>
                 </a>
               </li>

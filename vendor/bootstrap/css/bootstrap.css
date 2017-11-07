@@ -12,7 +12,7 @@
   --white: #fff;
   --gray: #868e96;
   --gray-dark: #343a40;
-  --primary: #007bff;
+  --primary: #e05a47;
   --secondary: #868e96;
   --success: #28a745;
   --info: #17a2b8;
@@ -3484,7 +3484,7 @@ tbody.collapse.show {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   color: #495057;
-  background-color: #e9ecef;
+  background-color: #e05a47;
   border: 1px solid #ced4da;
   border-radius: 0 0.25rem 0.25rem 0;
 }
@@ -4317,15 +4317,15 @@ tbody.collapse.show {
 
 .page-item.active .page-link {
   z-index: 2;
-  color: #fff;
-  background-color: #007bff;
+  color: #e05a47;
+  background-color: #e05a47;
   border-color: #007bff;
 }
 
 .page-item.disabled .page-link {
   color: #868e96;
   pointer-events: none;
-  background-color: #fff;
+  background-color: #e05a47;
   border-color: #ddd;
 }
 
@@ -4336,7 +4336,7 @@ tbody.collapse.show {
   margin-left: -1px;
   line-height: 1.25;
   color: #007bff;
-  background-color: #fff;
+  background-color: #e05a47;
   border: 1px solid #ddd;
 }
 
@@ -4407,45 +4407,45 @@ tbody.collapse.show {
 }
 
 .badge-primary {
-  color: #fff;
+  color: #e05a47;
   background-color: #007bff;
 }
 
 .badge-primary[href]:focus, .badge-primary[href]:hover {
-  color: #fff;
+  color: #e05a47;
   text-decoration: none;
   background-color: #0062cc;
 }
 
 .badge-secondary {
-  color: #fff;
+  color: #e05a47;
   background-color: #868e96;
 }
 
 .badge-secondary[href]:focus, .badge-secondary[href]:hover {
-  color: #fff;
+  color: #e05a47;
   text-decoration: none;
   background-color: #6c757d;
 }
 
 .badge-success {
-  color: #fff;
+  color: #e05a47;
   background-color: #28a745;
 }
 
 .badge-success[href]:focus, .badge-success[href]:hover {
-  color: #fff;
+  color: #e05a47;
   text-decoration: none;
   background-color: #1e7e34;
 }
 
 .badge-info {
-  color: #fff;
+  color: #e05a47;
   background-color: #17a2b8;
 }
 
 .badge-info[href]:focus, .badge-info[href]:hover {
-  color: #fff;
+  color: #e05a47;
   text-decoration: none;
   background-color: #117a8b;
 }
@@ -4462,12 +4462,12 @@ tbody.collapse.show {
 }
 
 .badge-danger {
-  color: #fff;
+  color: #e05a47;
   background-color: #dc3545;
 }
 
 .badge-danger[href]:focus, .badge-danger[href]:hover {
-  color: #fff;
+  color: #e05a47;
   text-decoration: none;
   background-color: #bd2130;
 }
@@ -8283,7 +8283,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 .text-primary {
-  color: #007bff !important;
+  color: #e05a47 !important;
 }
 
 a.text-primary:focus, a.text-primary:hover {
