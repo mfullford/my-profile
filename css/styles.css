@@ -55,6 +55,7 @@ body {
 .btn-dark:hover, .btn-dark:focus, .btn-dark:active {
   color: #fff;
   background-color: rgba(0, 0, 0, .7);
+  cursor: url(../image/arrow.png) 2 2, auto;
 }
 
 .btn-light {
@@ -110,18 +111,21 @@ hr.small {
 .sidebar-nav li {
   line-height: 40px;
   text-indent: 20px;
+  cursor: url(../image/arrow.png) 2 2, auto;
 }
 
 .sidebar-nav li a {
   display: block;
   text-decoration: none;
   color: white;
+  cursor: url(../image/arrow.png) 2 2, auto;
 }
 
 .sidebar-nav li a:hover {
   text-decoration: none;
   color: #fff;
   background: rgba(255, 255, 255, .2);
+  cursor: url(../image/arrow.png) 2 2, auto;
 }
 
 .sidebar-nav li a:active, .sidebar-nav li a:focus {
@@ -141,6 +145,7 @@ hr.small {
 .sidebar-nav>.sidebar-brand a:hover {
   color: #fff;
   background: none;
+  cursor: url(../image/arrow.png) 2 2, auto;
 }
 
 #menu-toggle {
@@ -274,6 +279,7 @@ h2 {
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
     transition: all .2s ease-out;
+    cursor: url(../image/arrow.png) 2 2, auto;
 }
 
 
@@ -323,6 +329,7 @@ h4 {
 .hoverImages:hover {
   cursor:pointer;
     margin-top: -10px;
+    cursor: url(../image/arrow.png) 2 2, auto;
 }
 
 /* Callout */
@@ -357,6 +364,7 @@ h4 {
 .img-portfolio:hover {
   opacity: .3;
   background-color: #343a40;
+  cursor: url(../image/arrow.png) 2 2, auto;
 
 }
 
@@ -377,6 +385,7 @@ h4 {
 
 .container:hover .overlay {
   opacity: .7;
+  cursor: url(../image/arrow.png) 2 2, auto;
 }
 
 .text {
@@ -455,5 +464,6 @@ footer {
  background-image: linear-gradient(to bottom, #eb9588 0%, rgba(224,90,71,.95) 100%)!important;
  background-opacity: .5;
 }
+
 
 
