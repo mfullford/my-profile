@@ -158,7 +158,7 @@ hr.small {
 #sidebar-wrapper.active {
   right: 250px;
   width: 200px;
-  height: 50%;
+  height: 56%;
   -webkit-transition: all .4s ease 0s;
   -moz-transition: all .4s ease 0s;
   -ms-transition: all .4s ease 0s;
@@ -403,7 +403,7 @@ h4 {
 
 .call-to-action {
   padding: 50px 0;
-  height: 90%;
+  height: 95%;
 }
 
 .call-to-action .btn {
