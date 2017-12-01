@@ -382,7 +382,9 @@ h4 {
   opacity: .3;
   background-color: #343a40;
   /*cursor: url(../image/arrow.png) 2 2, auto;*/
-}*/
+.round {
+  border-radius: 3px;
+}
 
 .overlay {
   position: absolute;
@@ -415,18 +417,21 @@ a {
   color: rgba(2,2,2,.0000001);
   font-size: 15px;
   position: absolute;
+  margin-top: 25px;
   top: 39%;
   left: 48%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  width: 60%;
+  width: 80%;
 }
 .text:hover{
+  margin-top: 25px;
   color: black;
   background-color: rgba(225,225,225,.85);
   border-radius: 3px;
   transition: .5s ease;
   padding-bottom: 20px;
+  width: 80%;
 }
 h5 {
   margin-top: 26px;
