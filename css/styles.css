@@ -400,7 +400,13 @@ h4 {
   border-radius: 3px;
 }
 
+.fa {
+  color: #e05a47;
+}
 
+a {
+  color: #e05a47;
+}
 .container:hover .overlay {
   opacity: .7;
   cursor: url(../image/arrow.png) 2 2, auto;
