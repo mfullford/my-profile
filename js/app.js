@@ -1,4 +1,25 @@
+window.sr = ScrollReveal();
+// set inside () to reappear each time { reset: true }
 
+sr.reveal('.services', { 
+  origin: 'right', 
+  duration: 2000 
+});
+
+sr.reveal('.about', { 
+  origin: 'right', 
+  duration: 2000 
+});
+
+sr.reveal('.portfolio', { 
+  origin: 'right', 
+  duration: 2000 
+});
+
+sr.reveal('.call-to-action', { 
+  origin: 'right', 
+  duration: 2000 
+});
 
 $("body").css('cursor', 'url(./image/arrow.png) 2 2, auto');
 
