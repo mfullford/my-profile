@@ -56,7 +56,7 @@ body {
 .btn-dark:hover, .btn-dark:focus, .btn-dark:active {
   color: #fff;
   background-color: rgba(0, 0, 0, .7);
-  cursor: url(../image/arrow.png) 2 2, auto;
+  /*cursor: url(../image/arrow.png) 2 2, auto;*/
 }
 
 .btn-light {
@@ -112,21 +112,21 @@ hr.small {
 .sidebar-nav li {
   line-height: 40px;
   text-indent: 20px;
-  cursor: url(../image/arrow.png) 2 2, auto;
+  /*cursor: url(../image/arrow.png) 2 2, auto;*/
 }
 
 .sidebar-nav li a {
   display: block;
   text-decoration: none;
   color: white;
-  cursor: url(../image/arrow.png) 2 2, auto;
+  /*cursor: url(../image/arrow.png) 2 2, auto;*/
 }
 
 .sidebar-nav li a:hover {
   text-decoration: none;
   color: #fff;
   background: rgba(255, 255, 255, .2);
-  cursor: url(../image/arrow.png) 2 2, auto;
+  /*cursor: url(../image/arrow.png) 2 2, auto;*/
 }
 
 .sidebar-nav li a:active, .sidebar-nav li a:focus {
@@ -146,7 +146,7 @@ hr.small {
 .sidebar-nav>.sidebar-brand a:hover {
   color: #fff;
   background: none;
-  cursor: url(../image/arrow.png) 2 2, auto;
+  /*cursor: url(../image/arrow.png) 2 2, auto;*/
 }
 
 #menu-toggle {
@@ -285,7 +285,7 @@ h2 {
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
     transition: all .2s ease-out;
-    cursor: url(../image/arrow.png) 2 2, auto;
+    /*cursor: url(../image/arrow.png) 2 2, auto;*/
 }
 
 
@@ -335,7 +335,7 @@ h4 {
 .hoverImages:hover {
   cursor:pointer;
     margin-top: -10px;
-    cursor: url(../image/arrow.png) 2 2, auto;
+    /*cursor: url(../image/arrow.png) 2 2, auto;*/
 }
 
 /* Callout */
@@ -378,11 +378,11 @@ h4 {
   margin: 0 auto;
 }
 
-.img-portfolio:hover {
+/*.img-portfolio:hover {
   opacity: .3;
   background-color: #343a40;
-  cursor: url(../image/arrow.png) 2 2, auto;
-}
+  /*cursor: url(../image/arrow.png) 2 2, auto;*/
+}*/
 
 .overlay {
   position: absolute;
@@ -392,11 +392,11 @@ h4 {
   right: 0;
   height: 60%;
   width: 60%;
-  opacity: 0;
   transition: .5s ease;
   color: black;
-  background-color: #343a40;
+  /*background-color: #343a40;*/
   border-radius: 3px;
+/*  visibility: hidden;*/
 }
 
 .fa {
@@ -406,21 +406,28 @@ h4 {
 a {
   color: #e05a47;
 }
-.container:hover .overlay {
-  opacity: .7;
-  cursor: url(../image/arrow.png) 2 2, auto;
+.overlay {
+  opacity: .9;
+  /*cursor: url(../image/arrow.png) 2 2, auto;*/
 }
 
 .text {
-  color: white;
+  color: rgba(2,2,2,.0000001);
   font-size: 15px;
   position: absolute;
-  top: 38%;
+  top: 39%;
   left: 48%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  width: 60%;
 }
-
+.text:hover{
+  color: black;
+  background-color: rgba(225,225,225,.85);
+  border-radius: 3px;
+  transition: .5s ease;
+  padding-bottom: 20px;
+}
 h5 {
   margin-top: 26px;
   font-size: 18px;

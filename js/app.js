@@ -20,7 +20,7 @@ sr.reveal('.call-to-action', {
   duration: 2000 
 });
 
-$("body").css('cursor', 'url(./image/arrow.png) 2 2, auto');
+// $("body").css('cursor', 'url(./image/arrow.png) 2 2, auto');
 
 
 (function($) {
