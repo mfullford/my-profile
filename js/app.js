@@ -1,6 +1,5 @@
 window.sr = ScrollReveal();
 // set inside () to reappear each time { reset: true }
-
 sr.reveal('.services', { 
   origin: 'right', 
   duration: 2000 
